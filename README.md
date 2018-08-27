@@ -25,7 +25,7 @@ To use it, you will also need the latest Godot binary.
 4. Enter `UTILITRON` in this NativeScript's class name field 
 5. Select utilitronGD.gdnlib as the library for this script
 
-## Accessing from gdscript
+## Accessing from GDScript
 
 `FIXME We should make our library a singleton so that we do not have to manage multiple instances or use .new()`
 1. Add `var utilitron = preload("res://lib/utilitron.gdns").new()`
